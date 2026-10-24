@@ -1,0 +1,109 @@
+{
+  "tabs": [
+    {
+      "id": "1792766919651ze8x",
+      "tabKind": "request",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true,
+      "inheritScripts": false,
+      "preRequestScript": "",
+      "testScript": "",
+      "testRules": [],
+      "setVariables": [],
+      "activeTab": "body",
+      "responseTab": "body",
+      "sourceRequestId": null,
+      "sourceCollectionId": null,
+      "sourceFolderPath": null,
+      "sourceScope": "local",
+      "proxyId": null,
+      "certificateConfig": null,
+      "inheritCertificate": false,
+      "response": {
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "content-length": "6",
+          "content-type": "application/json",
+          "date": "Fri, 23 Oct 2026 22:13:25 GMT",
+          "server": "uvicorn"
+        },
+        "body": "\"good\"",
+        "time": 42,
+        "size": 6,
+        "actualRequest": {
+          "method": "GET",
+          "url": "http://0.0.0.0:8000/test",
+          "headers": {
+            "Accept": "application/json"
+          },
+          "body": null,
+          "protocol": "HTTP/1.1",
+          "certificateNames": "System Trust Store"
+        },
+        "cookies": [],
+        "timingPhases": [
+          {
+            "name": "Environment",
+            "duration": 2
+          },
+          {
+            "name": "Auth",
+            "duration": 0
+          },
+          {
+            "name": "HTTP Request",
+            "duration": 42
+          },
+          {
+            "name": "Post-processing",
+            "duration": 0
+          }
+        ]
+      },
+      "error": null,
+      "loading": false,
+      "wsConnected": false,
+      "wsUrl": null,
+      "wsMessages": [],
+      "grpcConnected": false,
+      "grpcStreaming": false,
+      "grpcMessages": [],
+      "grpcConfig": null,
+      "groupId": null,
+      "mcpDescription": "",
+      "mcpInputSchema": "",
+      "collectionId": null,
+      "folderId": null,
+      "folderPath": null,
+      "editorScope": "local"
+    }
+  ],
+  "groups": [],
+  "activeTabId": "1792766919651ze8x",
+  "currentView": "requests",
+  "sidebarTab": "collections",
+  "sidebarCollapsed": true,
+  "responseTab": "body",
+  "layoutMode": "horizontal",
+  "splitRatio": 0.5,
+  "horizontalSplitRatio": 0.5,
+  "selectedMockServerId": null
+}

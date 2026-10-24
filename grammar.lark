@@ -1,0 +1,10 @@
+start: (allow_section | block_section)*
+
+allow_section: "Allow:" item_list
+block_section: "Block:" item_list
+
+item_list: ("-" WORD)+
+
+%import common.WORD
+%import common.WS
+%ignore WS

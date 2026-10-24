@@ -1,0 +1,6 @@
+Allow:
+  - Nom
+  - Age
+Block:
+  - email
+  - IBAN

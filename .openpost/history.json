@@ -1,0 +1,907 @@
+[
+  {
+    "id": "1792767100706",
+    "timestamp": 1792767100706,
+    "request": {
+      "id": "1792767100691",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "mon adresse email est test@gmail.de"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 422,
+      "statusText": "Unprocessable Content",
+      "headers": {
+        "content-length": "92",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 14:51:40 GMT",
+        "server": "uvicorn"
+      },
+      "body": "{\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"prompt\"],\"msg\":\"Field required\",\"input\":null}]}",
+      "time": 9,
+      "size": 92,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767171646",
+    "timestamp": 1792767171646,
+    "request": {
+      "id": "1792767171634",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"prompt\": \"this is a test. If email can be detected \"\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 422,
+      "statusText": "Unprocessable Content",
+      "headers": {
+        "content-length": "92",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 14:52:51 GMT",
+        "server": "uvicorn"
+      },
+      "body": "{\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"prompt\"],\"msg\":\"Field required\",\"input\":null}]}",
+      "time": 6,
+      "size": 92,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767279235",
+    "timestamp": 1792767279235,
+    "request": {
+      "id": "1792767279221",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"prompt\": \"this is a test. If email can be detected.\"\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 422,
+      "statusText": "Unprocessable Content",
+      "headers": {
+        "content-length": "92",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 14:54:38 GMT",
+        "server": "uvicorn"
+      },
+      "body": "{\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"prompt\"],\"msg\":\"Field required\",\"input\":null}]}",
+      "time": 9,
+      "size": 92,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767396041",
+    "timestamp": 1792767396041,
+    "request": {
+      "id": "1792767396031",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"prompt\": \"this is a test. If email can be detected.\"\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 422,
+      "statusText": "Unprocessable Content",
+      "headers": {
+        "content-length": "92",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 14:56:35 GMT",
+        "server": "uvicorn"
+      },
+      "body": "{\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"prompt\"],\"msg\":\"Field required\",\"input\":null}]}",
+      "time": 5,
+      "size": 92,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767566412",
+    "timestamp": 1792767566412,
+    "request": {
+      "id": "1792767566402",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"prompt\": \"this is a test. If email can be detected.\"\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 422,
+      "statusText": "Unprocessable Content",
+      "headers": {
+        "content-length": "152",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 14:59:25 GMT",
+        "server": "uvicorn"
+      },
+      "body": "{\"detail\":[{\"type\":\"string_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid string\",\"input\":{\"prompt\":\"this is a test. If email can be detected.\"}}]}",
+      "time": 7,
+      "size": 152,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767683050",
+    "timestamp": 1792767683050,
+    "request": {
+      "id": "1792767683007",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "this is a test. If email can be detected."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Fri, 23 Oct 2026 15:01:22 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 25,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767719901",
+    "timestamp": 1792767719901,
+    "request": {
+      "id": "1792767719864",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "this is a test. If email can be detected."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Fri, 23 Oct 2026 15:01:58 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 25,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767754694",
+    "timestamp": 1792767754694,
+    "request": {
+      "id": "1792767754676",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "this is a test. If email can be detected."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Fri, 23 Oct 2026 15:02:33 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 7,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767782117",
+    "timestamp": 1792767782117,
+    "request": {
+      "id": "1792767782088",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "this is a test. If email can be detected."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "5",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 15:03:02 GMT",
+        "server": "uvicorn"
+      },
+      "body": "false",
+      "time": 24,
+      "size": 5,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767823090",
+    "timestamp": 1792767823090,
+    "request": {
+      "id": "1792767823080",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "this is a test. If email can be detected. my email ist test@email.de"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "5",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 15:03:42 GMT",
+        "server": "uvicorn"
+      },
+      "body": "false",
+      "time": 5,
+      "size": 5,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767825428",
+    "timestamp": 1792767825428,
+    "request": {
+      "id": "1792767825417",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "this is a test. If email can be detected. my email ist test@email.de"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "5",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 15:03:44 GMT",
+        "server": "uvicorn"
+      },
+      "body": "false",
+      "time": 7,
+      "size": 5,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792767910554",
+    "timestamp": 1792767910554,
+    "request": {
+      "id": "1792767910530",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "this is a test. If email can be detected. my email ist test@email.de"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "5",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 15:05:09 GMT",
+        "server": "uvicorn"
+      },
+      "body": "false",
+      "time": 20,
+      "size": 5,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792768085093",
+    "timestamp": 1792768085093,
+    "request": {
+      "id": "1792768085067",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "this is a test. If email can be detected. my email ist test@email.de"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "4",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 15:08:04 GMT",
+        "server": "uvicorn"
+      },
+      "body": "true",
+      "time": 22,
+      "size": 4,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792783045812",
+    "timestamp": 1792783045812,
+    "request": {
+      "id": "1792783045804",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 0,
+      "statusText": "Error",
+      "headers": {},
+      "body": "Request failed: Request with GET/HEAD method cannot have body.",
+      "time": 6,
+      "size": 0,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792783060928",
+    "timestamp": 1792783060928,
+    "request": {
+      "id": "1792783060925",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 0,
+      "statusText": "Error",
+      "headers": {},
+      "body": "Request failed: Request with GET/HEAD method cannot have body.",
+      "time": 1,
+      "size": 0,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792783079734",
+    "timestamp": 1792783079734,
+    "request": {
+      "id": "1792783079705",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "6",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 19:17:58 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"good\"",
+      "time": 27,
+      "size": 6,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792783245560",
+    "timestamp": 1792783245560,
+    "request": {
+      "id": "1792783245522",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "6",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 19:20:45 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"good\"",
+      "time": 36,
+      "size": 6,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792784332804",
+    "timestamp": 1792784332804,
+    "request": {
+      "id": "1792784332760",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "6",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 19:38:52 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"good\"",
+      "time": 43,
+      "size": 6,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792790085348",
+    "timestamp": 1792790085348,
+    "request": {
+      "id": "1792790085295",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "6",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 21:14:44 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"good\"",
+      "time": 49,
+      "size": 6,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792790187224",
+    "timestamp": 1792790187224,
+    "request": {
+      "id": "1792790187180",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "6",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 21:16:27 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"good\"",
+      "time": 42,
+      "size": 6,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792793605735",
+    "timestamp": 1792793605735,
+    "request": {
+      "id": "1792793605687",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "6",
+        "content-type": "application/json",
+        "date": "Fri, 23 Oct 2026 22:13:25 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"good\"",
+      "time": 42,
+      "size": 6,
+      "cookies": []
+    }
+  }
+]
