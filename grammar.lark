@@ -1,10 +1,56 @@
-start: (allow_section | block_section)*
+// =====================================================================
+// OFFICIAL GRAMMAR FOR THE PATTERN MATCHING & MASKING DSL
+// =====================================================================
 
-allow_section: "Allow:" item_list
-block_section: "Block:" item_list
+// One statement per line. Newlines are significant (see _NL below).
+start: _NL? (statement (_NL statement)* _NL?)?
 
-item_list: ("-" WORD)+
+statement: set_definition | rule_definition
 
-%import common.WORD
-%import common.WS
-%ignore WS
+// --- 1. SET LAYER (Definition of base building blocks) ---
+set_definition: NAME _COLON set_expr
+set_expr: set_item (COMMA set_item)*
+
+set_item: range_item | literal_item
+range_item: (QUOTED | NAME | CHAR) RANGE_OP (QUOTED | NAME | CHAR)
+literal_item: QUOTED | NAME | CHAR
+
+// --- 2. RULE LAYER (Composition and final patterns) ---
+rule_definition: NAME _EQUALS rule_expr
+rule_expr: rule_element+
+
+rule_element: (MACRO | NAME | LITERAL_TOKEN) quantifier?
+
+// --- 3. NATIVE QUANTIFIERS (Built-in repetition operators) ---
+quantifier: PLUS
+          | STAR
+          | QUESTION
+          | LBRACE NUMBER (COMMA NUMBER?)? RBRACE
+
+// --- 4. TERMINALS ---
+// Priority resolves overlap: RANGE_OP ("...") beats the single "." CHAR.
+RANGE_OP.2: "..."
+NAME.1: /[a-zA-Z_][a-zA-Z0-9_]*/
+MACRO.2: /\[[a-zA-Z_][a-zA-Z0-9_]*\]/
+
+_COLON: ":"
+_EQUALS: "="
+COMMA: ","
+PLUS: "+"
+STAR: "*"
+QUESTION: "?"
+LBRACE: "{"
+RBRACE: "}"
+NUMBER: /\d+/
+
+// Quoted single character inside a set: 'a' or "a"
+QUOTED.2: /'[^']'|"[^"]"/
+// A single non-letter character inside a set (digit, @, ., -, ...)
+CHAR: /[^\s,:'"a-zA-Z_]/
+// A single non-letter character inside a rule (digit, @, ., -, ...)
+LITERAL_TOKEN: /[^=\s\[\]:,{}+*?a-zA-Z_]/
+
+// Statement separator: one or more line breaks (blank lines allowed).
+// Only spaces and tabs are ignored, so a line break ends a statement.
+_NL: /(\r?\n[ \t]*)+/
+%ignore /[ \t]+/

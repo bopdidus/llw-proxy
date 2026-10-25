@@ -4,19 +4,24 @@
       "id": "1792766919651ze8x",
       "tabKind": "request",
       "name": "New Request",
-      "method": "GET",
-      "url": " http://0.0.0.0:8000/test",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000/",
       "params": [],
       "headers": [
         {
           "key": "Accept",
           "value": "application/json",
           "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
         }
       ],
       "body": {
-        "type": "none",
-        "raw": ""
+        "type": "raw",
+        "raw": "Bonjour, je m'appelle Jean. Mon email est jean.dupont@exemple.com et mon IBAN est 12345678901234567890. Peux-tu me résumer en une phrase quelles informations personnelles je viens de te donner ?"
       },
       "auth": {
         "type": "none"
@@ -28,7 +33,6 @@
       "testRules": [],
       "setVariables": [],
       "activeTab": "body",
-      "responseTab": "body",
       "sourceRequestId": null,
       "sourceCollectionId": null,
       "sourceFolderPath": null,
@@ -40,21 +44,22 @@
         "status": 200,
         "statusText": "OK",
         "headers": {
-          "content-length": "6",
+          "content-length": "117",
           "content-type": "application/json",
-          "date": "Fri, 23 Oct 2026 22:13:25 GMT",
+          "date": "Sun, 25 Oct 2026 17:26:37 GMT",
           "server": "uvicorn"
         },
-        "body": "\"good\"",
-        "time": 42,
-        "size": 6,
+        "body": "\"Les informations personnelles que vous venez de me donner sont votre nom (Jean), votre adresse email et votre IBAN.\"",
+        "time": 3991,
+        "size": 117,
         "actualRequest": {
-          "method": "GET",
-          "url": "http://0.0.0.0:8000/test",
+          "method": "POST",
+          "url": "http://0.0.0.0:8000/",
           "headers": {
-            "Accept": "application/json"
+            "Accept": "application/json",
+            "Content-Type": "text/plain"
           },
-          "body": null,
+          "body": "Bonjour, je m'appelle Jean. Mon email est jean.dupont@exemple.com et mon IBAN est 12345678901234567890. Peux-tu me résumer en une phrase quelles informations personnelles je viens de te donner ?",
           "protocol": "HTTP/1.1",
           "certificateNames": "System Trust Store"
         },
@@ -62,7 +67,7 @@
         "timingPhases": [
           {
             "name": "Environment",
-            "duration": 2
+            "duration": 1
           },
           {
             "name": "Auth",
@@ -70,7 +75,7 @@
           },
           {
             "name": "HTTP Request",
-            "duration": 42
+            "duration": 3991
           },
           {
             "name": "Post-processing",
@@ -83,17 +88,16 @@
       "wsConnected": false,
       "wsUrl": null,
       "wsMessages": [],
-      "grpcConnected": false,
-      "grpcStreaming": false,
-      "grpcMessages": [],
-      "grpcConfig": null,
       "groupId": null,
       "mcpDescription": "",
       "mcpInputSchema": "",
       "collectionId": null,
       "folderId": null,
       "folderPath": null,
-      "editorScope": "local"
+      "editorScope": "local",
+      "grpcConnected": false,
+      "grpcStreaming": false,
+      "responseTab": "body"
     }
   ],
   "groups": [],

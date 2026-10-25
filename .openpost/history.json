@@ -903,5 +903,840 @@
       "size": 6,
       "cookies": []
     }
+  },
+  {
+    "id": "1792874894223",
+    "timestamp": 1792874894223,
+    "request": {
+      "id": "1792874894144",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Sat, 24 Oct 2026 20:48:13 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 62,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792875052304",
+    "timestamp": 1792875052304,
+    "request": {
+      "id": "1792875052247",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Sat, 24 Oct 2026 20:50:51 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 46,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792875195282",
+    "timestamp": 1792875195282,
+    "request": {
+      "id": "1792875195224",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Sat, 24 Oct 2026 20:53:14 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 46,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792875292416",
+    "timestamp": 1792875292416,
+    "request": {
+      "id": "1792875292366",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "6",
+        "content-type": "application/json",
+        "date": "Sat, 24 Oct 2026 20:54:51 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"good\"",
+      "time": 46,
+      "size": 6,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792875516314",
+    "timestamp": 1792875516314,
+    "request": {
+      "id": "1792875516251",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Sat, 24 Oct 2026 20:58:35 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 45,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792875612831",
+    "timestamp": 1792875612831,
+    "request": {
+      "id": "1792875612784",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "6",
+        "content-type": "application/json",
+        "date": "Sat, 24 Oct 2026 21:00:12 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"good\"",
+      "time": 43,
+      "size": 6,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792880126619",
+    "timestamp": 1792880126619,
+    "request": {
+      "id": "1792880126571",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "6",
+        "content-type": "application/json",
+        "date": "Sat, 24 Oct 2026 22:15:26 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"good\"",
+      "time": 43,
+      "size": 6,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792880579170",
+    "timestamp": 1792880579170,
+    "request": {
+      "id": "1792880579115",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "6",
+        "content-type": "application/json",
+        "date": "Sat, 24 Oct 2026 22:22:58 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"good\"",
+      "time": 46,
+      "size": 6,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792945714647",
+    "timestamp": 1792945714647,
+    "request": {
+      "id": "1792945714565",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Sun, 25 Oct 2026 16:28:34 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 67,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792945780647",
+    "timestamp": 1792945780647,
+    "request": {
+      "id": "1792945780596",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/test",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none",
+        "raw": ""
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "89",
+        "content-type": "application/json",
+        "date": "Sun, 25 Oct 2026 16:29:39 GMT",
+        "server": "uvicorn"
+      },
+      "body": "{\"email\":\"[a-zA-Z0-9_\\\\.\\\\-]+@[a-zA-Z0-9_\\\\.\\\\-]+\\\\.[a-zA-Z]{2,4}\",\"iban\":\"[0-9]{10,34}\"}",
+      "time": 48,
+      "size": 89,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792947322077",
+    "timestamp": 1792947322077,
+    "request": {
+      "id": "1792947322068",
+      "name": "New Request",
+      "method": "GET",
+      "url": " http://0.0.0.0:8000/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "Write a professional customer support support@example.com email confirming to a user that their subscription has been successfully updated."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 0,
+      "statusText": "Error",
+      "headers": {},
+      "body": "Request failed: Request with GET/HEAD method cannot have body.",
+      "time": 6,
+      "size": 0,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792947484479",
+    "timestamp": 1792947484479,
+    "request": {
+      "id": "1792947484444",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "Write a professional customer support support@example.com email confirming to a user that their subscription has been successfully updated."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Sun, 25 Oct 2026 16:58:03 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 25,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792947710973",
+    "timestamp": 1792947710973,
+    "request": {
+      "id": "1792947710899",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "Write a professional customer support support@example.com email confirming to a user that their subscription has been successfully updated."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Sun, 25 Oct 2026 17:01:50 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 63,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792947778273",
+    "timestamp": 1792947778273,
+    "request": {
+      "id": "1792947778219",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "Write a professional customer support support@example.com email confirming to a user that their subscription has been successfully updated."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Sun, 25 Oct 2026 17:02:58 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 44,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792948078102",
+    "timestamp": 1792948078102,
+    "request": {
+      "id": "1792948078092",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "Write a professional customer support support@example.com email confirming to a user that their subscription has been successfully updated."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 0,
+      "statusText": "Error",
+      "headers": {},
+      "body": "Request failed: fetch failed",
+      "time": 8,
+      "size": 0,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792948476916",
+    "timestamp": 1792948476916,
+    "request": {
+      "id": "1792948476859",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "Write a professional customer support support@example.com email confirming to a user that their subscription has been successfully updated."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "content-length": "21",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Sun, 25 Oct 2026 17:14:35 GMT",
+        "server": "uvicorn"
+      },
+      "body": "Internal Server Error",
+      "time": 45,
+      "size": 21,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792948684259",
+    "timestamp": 1792948684259,
+    "request": {
+      "id": "1792948666259",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "Write a professional customer support support@example.com email confirming to a user that their subscription has been successfully updated."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "2355",
+        "content-type": "application/json",
+        "date": "Sun, 25 Oct 2026 17:17:46 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"This email template is designed to be professional, reassuring, and clear. It ensures the customer knows exactly what happened without requiring them to search through complex system messages.\\n\\n---\\n\\n## Professional Email Template\\n\\n**Subject:** ✅ Your Subscription Update Has Been Successfully Processed\\n\\n**Dear [Customer Name],**\\n\\nWe are pleased to confirm that your subscription update has been successfully processed.\\n\\nWe have successfully applied the changes to your account, and your new plan is now active.\\n\\n### **Subscription Summary**\\n\\nFor your convenience, here are the details of your updated subscription:\\n\\n*   **Account:** [Customer Account ID or Email Address]\\n*   **Previous Plan:** [Name of Old Plan, e.g., Basic Tier]\\n*   **New Plan:** [Name of New Plan, e.g., Premium Pro]\\n*   **Effective Date:** [Date the change took effect, e.g., Immediately / Start of next billing cycle on MM/DD/YYYY]\\n*   **Billing Cycle:** [Monthly / Annually]\\n*   **New Monthly/Annual Price:** [New Price, e.g., $49.99/month]\\n\\nYou can now enjoy all the benefits associated with the **[New Plan Name]**.\\n\\n### **What Happens Next?**\\n\\nYou should receive a separate confirmation email regarding your new billing cycle and any immediate changes to your service features within the next [X] hours.\\n\\nIf you have any questions about your new plan, features, or billing details, please do not hesitate to contact our support team.\\n\\n**[Link to Help Center/FAQ Page]**\\n\\nThank you for being a valued customer of [Your Company Name].\\n\\n**Best regards,**\\n\\n**[Your Name]**\\n[Your Title/Department, e.g., Customer Success Team]\\n[Your Company Name]\\n[Your Direct Support Phone Number (Optional)]\\n[Your Company Website Link]\\n\\n---\\n\\n### 💡 Quick Tips for Implementation:\\n\\n1.  **Personalization is Key:** Always use the customer's name (`[Customer Name]`).\\n2.  **Clarity over Jargon:** Avoid internal technical terms. Focus on what the *customer* gains (e.g., \\\"enjoy all the benefits\\\").\\n3.  **Specific Dates:** Providing the effective date helps prevent confusion about when the change actually started.\\n4.  **Test the Links:** Ensure the link to the FAQ or Help Center is working correctly.\\n5.  **Automation:** This email should ideally be triggered automatically by your billing system immediately after the successful update.\"",
+      "time": 17996,
+      "size": 2355,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792948757776",
+    "timestamp": 1792948757776,
+    "request": {
+      "id": "1792948750387",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "Write a professional customer support support@example.com email confirming to a user that their subscription has been successfully updated."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 0,
+      "statusText": "Cancelled",
+      "headers": {},
+      "body": "Request failed: Request cancelled",
+      "time": 7386,
+      "size": 0,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792949043087",
+    "timestamp": 1792949043087,
+    "request": {
+      "id": "1792949023156",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "Write a professional customer support support@example.com email confirming to a user that their subscription has been successfully updated."
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "3301",
+        "content-type": "application/json",
+        "date": "Sun, 25 Oct 2026 17:23:43 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"This template is designed to be professional, clear, and reassuring. You can choose the version that best matches your company's tone (Formal, Standard, or Friendly).\\n\\n***\\n\\n## Option 1: Standard & Professional (Recommended)\\n\\n**Subject:** Confirmation: Your Subscription Update Has Been Successful\\n\\n**Dear [Customer Name],**\\n\\nWe are pleased to confirm that your subscription has been successfully updated as requested.\\n\\n**Details of the Update:**\\n*   **Subscription Plan:** [New Plan Name/Tier, e.g., Premium Tier]\\n*   **Effective Date:** [Date of Update]\\n*   **Changes Included:** [Briefly list the main benefit, e.g., Access to new reporting features and increased storage capacity.]\\n\\nYour updated subscription is now active and fully effective. You can review all the details and access your new features within your account dashboard here: [Link to Customer Dashboard/Billing Portal]\\n\\nIf you have any questions about your new plan, or if you require any further assistance, please do not hesitate to reply to this email or contact our support team at [Support Phone Number] or [Support Email Address].\\n\\nThank you for being a valued customer of [Your Company Name].\\n\\n**Sincerely,**\\n\\nThe [Your Company Name] Support Team\\n\\n***\\n\\n## Option 2: Formal & Detailed (Good for Enterprise/Complex Updates)\\n\\n**Subject:** Account Status Confirmation: Successful Subscription Modification\\n\\n**Dear [Customer Name],**\\n\\nThis email serves to formally confirm the successful processing of your recent subscription modification.\\n\\nWe have successfully updated your account details, effective [Date of Update], to reflect the following changes:\\n\\n*   **Previous Plan:** [Old Plan Name]\\n*   **New Plan:** [New Plan Name]\\n*   **Billing Cycle Adjustment:** [Specify any billing change, e.g., Monthly billing initiated.]\\n*   **Feature Access:** [Detailed summary of new features or access rights.]\\n\\nAll necessary changes have been implemented on our end, and your access to the new features is now available. You may find a detailed breakdown of your updated plan within the [Link to Billing/Account Settings Page].\\n\\nShould you have any concerns regarding this change or require personalized assistance, please reference your account number [Account Number] when contacting our dedicated support line at [Support Phone Number].\\n\\nWe appreciate your continued business.\\n\\n**Respectfully,**\\n\\n[Your Name/Title, or The Customer Success Team]\\n[Your Company Name]\\n\\n***\\n\\n## Option 3: Friendly & Casual (Good for Startups/Creative Brands)\\n\\n**Subject:** 🎉 Good News! Your Subscription is All Set!\\n\\n**Hi [Customer Name],**\\n\\nGreat news! We’ve just successfully updated your subscription, and everything is running smoothly.\\n\\nYour new [New Plan Name] is now active, and you can start enjoying [Mention the primary benefit, e.g., all the premium features] right away!\\n\\n**What you need to know:**\\n*   **New Plan:** [New Plan Name]\\n*   **When it started:** [Date]\\n*   **Check it out:** Log into your dashboard here: [Link to Customer Dashboard]\\n\\nIf you have any questions at all or need a hand exploring your new features, just hit reply! We’re here to help.\\n\\nHappy [Using Your Product/Service]!\\n\\n**Best regards,**\\n\\n[Your Name]\\n[Your Company Name] Support\"",
+      "time": 19928,
+      "size": 3301,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792949202742",
+    "timestamp": 1792949202742,
+    "request": {
+      "id": "1792949198747",
+      "name": "New Request",
+      "method": "POST",
+      "url": " http://0.0.0.0:8000/",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "Bonjour, je m'appelle Jean. Mon email est jean.dupont@exemple.com et mon IBAN est 12345678901234567890. Peux-tu me résumer en une phrase quelles informations personnelles je viens de te donner ?"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "content-length": "117",
+        "content-type": "application/json",
+        "date": "Sun, 25 Oct 2026 17:26:37 GMT",
+        "server": "uvicorn"
+      },
+      "body": "\"Les informations personnelles que vous venez de me donner sont votre nom (Jean), votre adresse email et votre IBAN.\"",
+      "time": 3991,
+      "size": 117,
+      "cookies": []
+    }
   }
 ]
